@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    margin: 0;
+    background-color: #c5a278;
+}
+
+h1 {
+    color: #c5a278;
+}
+
+input {
+    padding: 5px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #c5a278;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #826747;
+}
+
+p {
+    margin: 10px;
+    color: rgb(255, 255, 255);
+}
+
+div{
+    background-color: #fae2c0;
+    padding: 50px;
+    border-radius: 5%;
+}
+
+.fa-cart-shopping{
+color: #c5a278 ;
+font-size: 2rem;
+}

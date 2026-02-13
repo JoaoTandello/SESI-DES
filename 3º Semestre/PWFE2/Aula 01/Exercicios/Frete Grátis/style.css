@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    margin: 0;
+    background-color: rgb(142, 112, 149);
+}
+
+h1 {
+    color: rgb(142, 112, 149);
+}
+
+input {
+    padding: 5px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: rgb(142, 112, 149);
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(142, 112, 149);
+}
+
+p {
+    margin: 10px;
+    color: rgb(142, 112, 149);
+}
+
+div{
+    background-color: #533058;
+    padding: 50px;
+    border-radius: 5%;
+}
+
+.fa-truck{
+color: rgb(142, 112, 149) ;
+font-size: 2rem;
+}
